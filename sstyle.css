@@ -1,18 +1,20 @@
-body {
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-family: Arial;
     background: linear-gradient(to right, #667eea, #764ba2);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.container {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
+.container{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    width:350px;
+    max-width:90%;
+    text-align:center;
 }
 
 input {
@@ -71,3 +73,4 @@ button:hover {
         font-size: 14px;
     }
 }
+
